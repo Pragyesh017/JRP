@@ -1,0 +1,29 @@
+DNS
+DNS stands for Domain Name System, which is a system that translates human-readable domain names into machine-readable IP addresses: 
+DNS allows users to access websites by inputting domain names like "example.com" into their browsers, instead of having to remember the IP address for each website. 
+DNS servers are built into most modern operating systems and work with DNS clients to enable web browsers to interact with them. When a user requests a website, the DNS server checks its cache for the IP address, and if it can't find it, it sends a request to other servers
+
+SSH (Secure Shell)
+An SSH key pair is a set of two keys that are used to authenticate a user or process that wants to access a remote system using the SSH (secure shell) protocol:
+Public key
+Used to encrypt messages that can only be decrypted by the private key. The public key is shared with the remote server and can be stored in a public key file on the server.
+Private key
+Used to decrypt messages and should be kept secret. The private key is stored on the system being used to access the remote server.
+
+My SSH private key
+-----BEGIN OPENSSH PRIVATE KEY-----
+b3BlbnNzaC1rZXktdjEAAAAACmFlczI1Ni1jdHIAAAAGYmNyeXB0AAAAGAAAABAqAl91CP
+m+W4OwZA4Nv5VaAAAAGAAAAAEAAAAzAAAAC3NzaC1lZDI1NTE5AAAAIEFqAexE/DUa//3s
+VzhRMBwdqjQ9H0TEiBqljwC+r5R6AAAAoAw8B7jfrkiRUuwnYHfqH89oZkPOQI3MW2q32L
+SVOcIfQS47B3PSygC9g/Gs95hUJWhTMx3LnbwoZB2UPc8JGvtnTAVfp6rt+ZXtxo9/HAWZ
+r9Al1q7RBug4zdrFoX0UyY4JHoFQ4u3aJ2CZw0wGJApz4QzNH4TOxB8YkPpsEDJjGiYXyA
+LVltPe/tO2+C2O8xJVKOobOTQHp1gCocHfh7g=
+-----END OPENSSH PRIVATE KEY-----
+
+My SSH public key
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIEFqAexE/DUa//3sVzhRMBwdqjQ9H0TEiBqljwC+r5R6 asus@LAPTOP-N2OHDRQM
+
+Install apache2 in ubuntu
+sudo apt-get update && apt-get upgrade -y
+systemctl status apache2.service (check the status of apache server)
+systemctl start apache2.service  (start the apache2 server)
