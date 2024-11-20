@@ -1,0 +1,21 @@
+Cursor Movement 
+h - move cursor left
+j - move cursor down
+k - move cursor up
+l - move cursor right
+gj - move cursor down (multi-line text)
+gk - move cursor up (multi-line text)
+H - move to top of screen
+M - move to middle of screen
+L - move to bottom of screen
+w - jump forwards to the start of a word
+
+
+Global 
+Global
+:h[elp] keyword - open help for keyword
+:sav[eas] file - save file as
+:clo[se] - close current pane
+:ter[minal] - open a terminal window
+K - open man page for word under the cursor
+
