@@ -1,0 +1,84 @@
+Software as a Service (SaaS) is a cloud computing model where software applications are delivered over the internet. Instead of installing and maintaining software on individual devices, users access these applications via a web browser, with the service provider handling maintenance, updates, and security. This model offers scalability, cost-effectiveness, and accessibility from any internet-connected device. 
+AZURE
+
+A hosted email service is a type of SaaS where a third-party provider manages and delivers email services over the internet. This eliminates the need for organizations to maintain their own email servers, as the provider handles infrastructure, maintenance, and security. Users can access their email accounts through web interfaces or email clients, benefiting from features like spam filtering, data backups, and technical support.
+
+Here are five popular hosted email services along with their pricing per user per month:
+
+Google Workspace (formerly G Suite):
+
+Pricing: Starts at $8.40 AUD per user per month for the Business Starter plan.
+Features: Professional email with 30 GB storage, video meetings, and collaboration tools.
+Microsoft 365 Business Basic:
+
+Pricing: Approximately $8.20 AUD per user per month.
+Features: Business-class email with 50 GB mailbox, online Office apps, and Teams for collaboration.
+Zoho Mail:
+
+Pricing: Starts at $1.25 USD (approximately $1.95 AUD) per user per month for the Mail Lite plan.
+Features: Ad-free email hosting with 5 GB storage per user and mobile apps.
+Proton Mail:
+
+Pricing: Starts at €5 (approximately $8.00 AUD) per user per month for the Professional plan.
+Features: Secure email hosting with end-to-end encryption and 5 GB storage per user.
+FastMail:
+
+Pricing: Starts at $5 USD (approximately $7.80 AUD) per user per month for the Basic plan.
+Features: Email hosting with 2 GB storage per user, calendar, and contacts.
+Note: Prices are approximate and may vary based on exchange rates and specific plans.
+
+Among these options, Google Workspace stands out due to its comprehensive suite of integrated tools, including Gmail, Google Drive, Docs, Sheets, and Meet. This integration facilitates seamless collaboration and productivity, making it a compelling choice for businesses seeking a robust and unified communication platform. Additionally, Google's infrastructure ensures reliability and security, which are critical for business operations.
+
+Here are five prominent Australian IT companies founded in Australia, along with their renowned products:
+
+Atlassian
+
+Founded: 2002 in Sydney, Australia.
+Renowned Products: Jira (project management), Confluence (collaboration platform), Bitbucket (code repository).
+WiseTech Global
+
+Founded: 1994 in Sydney, Australia.
+Renowned Product: CargoWise (logistics execution platform).
+TechnologyOne
+
+Founded: 1987 in Brisbane, Australia.
+Renowned Product: TechnologyOne Enterprise Suite (enterprise resource planning software).
+Xero
+
+Founded: 2006 in Wellington, New Zealand; headquartered in Melbourne, Australia.
+Renowned Product: Xero (cloud-based accounting software).
+MYOB
+
+Founded: 1991 in Melbourne, Australia.
+Renowned Products: MYOB Business (accounting software), MYOB Advanced (enterprise resource planning).
+Recent Cybersecurity Breaches Worldwide:
+
+In 2024, several significant cybersecurity breaches have occurred globally:
+
+T-Mobile Breach: Hackers associated with a Chinese intelligence agency infiltrated T-Mobile's network as part of a campaign aimed at spying on high-value intelligence targets. 
+THE WALL STREET JOURNAL
+
+Telecommunications Data Theft: China-linked hackers stole data related to legal wiretaps from multiple U.S. telecommunications providers, affecting tens of millions of Americans. 
+POLITICO
+
+Critical Infrastructure Threats in Australia: Australia's critical infrastructure faced significant cyber threats, with over 11% of cybersecurity incidents targeting essential services like electricity, gas, water, education, and transport. 
+REUTERS
+
+Essential Eight Cybersecurity Guidelines:
+
+The Essential Eight is a set of baseline mitigation strategies developed by the Australian Cyber Security Centre (ACSC) to help organizations protect themselves against various cyber threats. These strategies are:
+
+Application Control
+Patch Applications
+Configure Microsoft Office Macro Settings
+User Application Hardening
+Restrict Administrative Privileges
+Patch Operating Systems
+Multi-Factor Authentication
+Regular Backups
+Implementing these strategies makes it much harder for adversaries to compromise systems. 
+
+
+Australian Department Leading Cybersecurity Initiatives:
+
+The Australian Cyber Security Centre (ACSC), a part of the Australian Signals Directorate (ASD), leads the country's cybersecurity initiatives. The ACSC endorses the Essential Eight principles and provides guidance to organizations on implementing these strategies to enhance their cybersecurity posture.
