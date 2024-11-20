@@ -1,0 +1,63 @@
+Operating system virtualization, also known as OS-level virtualization, is a technology that allows multiple isolated user-space instances, called containers, to run on a single operating system kernel. Each container operates as an independent system, with its own processes, file systems, and network interfaces, while sharing the host OS kernel. This approach enables efficient resource utilization and rapid deployment of applications. 
+WIKIPEDIA
+
+Leading Virtualization Software:
+
+Several prominent virtualization platforms are widely used:
+
+VMware vSphere: A comprehensive suite for server virtualization, offering robust management and high availability features.
+
+Microsoft Hyper-V: Integrated into Windows Server, Hyper-V provides virtualization capabilities for both Windows and Linux environments. 
+MICROSOFT LEARN
+
+KVM (Kernel-based Virtual Machine): An open-source virtualization module in the Linux kernel that allows the host machine to run multiple isolated virtual environments. 
+AMAZON WEB SERVICES
+
+Proxmox Virtual Environment: An open-source platform that integrates KVM for virtual machines and LXC for containers, managed through a web-based interface. 
+WIKIPEDIA
+
+AWS Virtualization Technology:
+
+Amazon Web Services (AWS) utilizes the AWS Nitro System, a combination of dedicated hardware and a lightweight hypervisor, to deliver enhanced performance and security for its EC2 instances. The Nitro System offloads virtualization functions to dedicated hardware, allowing for better resource allocation and isolation. 
+AMAZON WEB SERVICES
+
+Docker Containers:
+
+A Docker container is a lightweight, standalone, and executable package that includes everything needed to run a piece of software, such as code, runtime, system tools, libraries, and settings. Containers ensure that applications run consistently across different computing environments by encapsulating them and their dependencies.
+
+Software Driver:
+
+A software driver is a specialized program that enables communication between the operating system and hardware devices. Drivers translate OS commands into device-specific instructions, allowing hardware components like printers, graphics cards, and network adapters to function correctly.
+
+Bridged Network:
+
+In networking, a bridged network configuration connects a virtual machine's network adapter directly to the host's physical network. This setup allows the VM to appear as a separate device on the network, with its own IP address, enabling it to communicate with other devices as if it were a physical machine.
+
+Paravirtualization vs. Full Virtualization:
+
+Full Virtualization: The hypervisor emulates complete hardware environments, allowing unmodified guest operating systems to run as if they were on physical hardware. This approach can introduce performance overhead due to the need for emulation.
+
+Paravirtualization: The guest OS is modified to interact directly with the hypervisor, reducing the need for emulation and improving performance. However, it requires changes to the guest OS, which may not always be feasible.
+
+Advantages of Virtualization:
+
+Virtualization offers several benefits:
+
+Resource Optimization: Multiple virtual machines can run on a single physical server, maximizing hardware utilization.
+
+Cost Savings: Reduced need for physical hardware leads to lower capital and operational expenses.
+
+Scalability and Flexibility: Easily create, modify, and delete virtual machines to meet changing workloads.
+
+Isolation: Each VM operates independently, enhancing security and stability by isolating applications.
+
+Thin and Thick Provisioning of Storage Disk:
+
+Thick Provisioning: Allocates the entire specified disk space to a virtual machine at creation, ensuring the space is reserved but potentially leading to unused capacity.
+
+Thin Provisioning: Allocates disk space dynamically as data is written, allowing for over-provisioning and more efficient use of storage resources.
+
+Virtual Machine Cloning:
+
+Virtual machine cloning involves creating an exact copy of an existing VM, including its configuration, installed software, and data. This process is useful for testing, development, and deploying multiple instances of a standardized environment.
+
